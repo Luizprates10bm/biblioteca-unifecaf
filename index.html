@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Digital UniFECAF</title>
+  
+  <!-- Fonte Google: Inter para boa legibilidade -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO E NAVEGAÇÃO -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <span class="logo-bold">UniFECAF</span>
+        <span class="logo-light">| Biblioteca Digital</span>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#destaques">Destaques</a></li>
+          <li><a href="#categorias">Categorias</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+   <!-- SEÇÃO HERO / APRESENTAÇÃO -->
+    <section class="hero">
+      <div class="container hero-content">
+        <h1>Portal do Conhecimento UniFECAF</h1>
+        <p>Consulte acervos acadêmicos, livros técnicos e artigos de pesquisa para apoiar sua formação profissional.</p>
+        <div class="search-box">
+          <input type="text" placeholder="Buscar por título, autor, assunto ou ISBN..." aria-label="Pesquisar acervo">
+          <button type="button">Buscar</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVROS EM DESTAQUE -->
+    <section id="destaques" class="section container">
+      <h2 class="section-title">Obras Acadêmicas em Destaque</h2>
+      <div class="grid-cards">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&q=80" alt="Capa do livro Desenvolvimento Web e Arquitetura Front-End" class="card-img">
+          <div class="card-body">
+            <span class="tag">Tecnologia</span>
+            <h3>Arquitetura Web Moderna</h3>
+            <p class="author">Autor: Marcelo R. Fontes</p>
+            <p class="description">Estruturação semântica, responsividade e boas práticas de design de interfaces.</p>
+            <a href="#ler" class="btn-primary">Acessar Livro</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&q=80" alt="Capa do livro Gestão de Projetos e Liderança Ágil" class="card-img">
+          <div class="card-body">
+            <span class="tag">Gestão & Negócios</span>
+            <h3>Gestão Ágil de Projetos</h3>
+            <p class="author">Autora: Juliana V. Castro</p>
+            <p class="description">Planejamento estratégico, método Scrum e governança em equipes multidisciplinares.</p>
+            <a href="#ler" class="btn-primary">Acessar Livro</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&q=80" alt="Capa do livro Direito Digital e Proteção de Dados" class="card-img">
+          <div class="card-body">
+            <span class="tag">Legislação</span>
+            <h3>Direito Digital & LGPD</h3>
+            <p class="author">Autor: Renato S. Alencar</p>
+            <p class="description">Fundamentos jurídicos sobre proteção de dados, privacidade e segurança na internet.</p>
+            <a href="#ler" class="btn-primary">Acessar Livro</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CATEGORIAS -->
+    <section id="categorias" class="section section-light">
+      <div class="container">
+        <h2 class="section-title">Explore por Categorias</h2>
+        <div class="grid-categories">
+          <div class="category-item">
+            <span class="icon">💻</span>
+            <h3>Tecnologia</h3>
+            <p>Sistemas, Redes e Dados</p>
+          </div>
+          <div class="category-item">
+            <span class="icon">📊</span>
+            <h3>Negócios</h3>
+            <p>Administração e Finanças</p>
+          </div>
+          <div class="category-item">
+            <span class="icon">⚖️</span>
+            <h3>Direito</h3>
+            <p>Legislação e Ética</p>
+          </div>
+          <div class="category-item">
+            <span class="icon">🩺</span>
+            <h3>Saúde</h3>
+            <p>Enfermagem e Psicologia</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="section container">
+      <h2 class="section-title">Serviços Oferecidos</h2>
+      <div class="grid-services">
+        <div class="service-card">
+          <h3>Empréstimo Digital</h3>
+          <p>Leia obras completas em formato digital a qualquer momento e pelo seu smartphone ou computador.</p>
+        </div>
+        <div class="service-card">
+          <h3>Normalização ABNT</h3>
+          <p>Modelos e guias oficiais para estruturação de trabalhos acadêmicos e TCCs.</p>
+        </div>
+        <div class="service-card">
+          <h3>Suporte ao Aluno</h3>
+          <p>Atendimento especializado de bibliotecários para auxílio em levantamentos bibliográficos.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- RODAPÉ INSTITUCIONAL -->
+  <footer id="contato" class="footer">
+    <div class="container footer-content">
+      <div class="footer-info">
+        <h3>UniFECAF — Centro Universitário</h3>
+        <p>Inovação, ensino prático e foco no mercado de trabalho.</p>
+      </div>
+      <div class="footer-contact">
+        <p><strong>Atendimento da Biblioteca:</strong></p>
+        <p>E-mail: biblioteca@fecaf.com.br</p>
+        <p>Horário: Segunda a Sexta, das 08h às 21h</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 UniFECAF. Todos os direitos reservados. Projeto Acadêmico de Design Web.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
